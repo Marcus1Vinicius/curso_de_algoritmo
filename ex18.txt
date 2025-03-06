@@ -1,0 +1,22 @@
+algoritmo de contagem inteligente:
+programa {
+ funcao inicio() {
+   inteiro comeco, final
+   escreva("Digite em quanto começa a contagem: ")
+   leia(comeco)
+   escreva("Digite em quanto termina a contagem: ")
+   leia(final)
+   escreva(comeco, "\n")
+   se (comeco <= final)
+     enquanto (comeco < final){
+       comeco = comeco + 1
+       escreva(comeco, "\n")
+     }
+   senao{
+     enquanto(comeco > final){
+       comeco = comeco - 1
+       escreva(comeco, "\n")
+     }
+   }
+ }
+}

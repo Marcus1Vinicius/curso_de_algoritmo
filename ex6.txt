@@ -1,0 +1,13 @@
+Desenvolva um programa que leia uma distância de metros e mostre os valores relativos em outras medidas.
+
+
+programa {
+ funcao inicio() {
+   real valor, km , cm
+   escreva("Digite a distância em metros: ")
+   leia(valor)
+   km = (valor / 1000)
+   cm = (valor * 100)
+   escreva("O valor ", valor, " em quilômetros fica ", km, " \ne em cm fica ", cm)
+ }
+}

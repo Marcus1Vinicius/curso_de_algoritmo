@@ -1,0 +1,21 @@
+Algoritmo que nos mostra o aluno com o melhor desempenho da sala:
+programa {
+ funcao inicio() {
+   real qtd_alunos, nota_aluno, nota_maior = 0, repet = 0
+   cadeia nome_aluno, melhor_aluno
+   escreva("Digite quantos alunos tem na sala: ")
+   leia(qtd_alunos)
+   enquanto(repet < qtd_alunos){
+     repet = repet + 1
+     escreva("Digite o nome do aluno: ")
+     leia(nome_aluno)
+     escreva("Digite a nota do ", nome_aluno, ": ")
+     leia(nota_aluno)
+     se (nota_maior < nota_aluno){
+       nota_maior = nota_aluno
+       melhor_aluno = nome_aluno
+       }
+     }
+   escreva("O melhor aproveitamento foi o de ", melhor_aluno, " com nota ", nota_maior)
+ }
+}

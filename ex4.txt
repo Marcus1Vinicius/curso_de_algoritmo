@@ -1,0 +1,21 @@
+Faça um programa que leia um número inteiro e mostre o seu antecessor e seu sucessor.
+
+
+programa
+{
+   funcao inicio()
+   {
+       real num1, sucessor, antecessor
+
+
+       escreva("Digite o número: " , "\n")
+       leia(num1)
+
+
+       sucessor = (num1 + 1)
+       antecessor = (num1 - 1)
+
+
+       escreva("O sucessor de: ", num1, " é ", sucessor, " e antecessor é o igual a: ", antecessor)
+   }
+}

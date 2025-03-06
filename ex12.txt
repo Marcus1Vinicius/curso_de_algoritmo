@@ -1,0 +1,14 @@
+A locadora de carros precisa da sua ajuda para cobrar seus serviços. Escreva um programa que pergunte a quantidade de km percorridos por um carro alugado e a quantidade de dias pelos quais ele foi alugado. Calcule o preço total a pagar, sabendo que o carro custa R$90 por dia e R$0,20 por km rodado.
+
+
+programa {
+ funcao inicio() {
+   real qtd_dias, qtd_km, valor
+   escreva("Digite a quantidade de dias que você ficou com o carro: ")
+   leia(qtd_dias)
+   escreva("Agora digite quantos quilômetros você rodou com o carro: ")
+   leia(qtd_km)
+   valor = (qtd_dias * 90) + (qtd_km * 0.20)
+   escreva("Como você usou o carro por ", qtd_dias, " dias e percorreu ", qtd_km, " quilômetros, você irá pagar ", valor, " reais")
+ }
+}

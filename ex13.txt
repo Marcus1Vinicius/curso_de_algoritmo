@@ -1,0 +1,12 @@
+Crie um programa que leia o número de dias trabalhados em um mês e mostre o salário de um funcionário, sabendo que ele trabalha 8 horas por dia e ganha R$25 por hora trabalhada.
+
+
+programa {
+ funcao inicio() {
+   real qtd_dias, salario
+   escreva("Digite a quantidade de dias trabalhados esse mês: ")
+   leia(qtd_dias)
+   salario = (25 * 8) * qtd_dias
+   escreva("Como você trabalhou ", qtd_dias, " dias você vai receber ", salario)
+ }
+}

@@ -1,0 +1,19 @@
+pseudocódigo com condicionais simples e compostas:
+programa {
+ funcao inicio() {
+   real nota1_aluno, nota2_aluno, nota3_aluno, nota4_aluno, nota_final
+   escreva("Digite a sua nota no primeiro bimestre: ")
+   leia(nota1_aluno)
+   escreva("Digite a sua nota no segundo bimestre: ")
+   leia(nota2_aluno)
+   escreva("Digite a sua nota no terceiro bimestre: ")
+   leia(nota3_aluno)
+   escreva("Digite a sua nota no quarto bimestre: ")
+   leia(nota4_aluno)
+   nota_final = (nota1_aluno + nota2_aluno + nota3_aluno + nota4_aluno) / 4
+   se (nota_final >= 6) #condicional simples
+     escreva("Parabéns você está aprovado! Sua nota foi ", nota_final)
+   senao #condicional composta
+     escreva("Vocẽ está reprovado! Sua nota foi ", nota_final)
+ }
+}

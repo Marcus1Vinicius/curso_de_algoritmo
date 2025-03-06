@@ -1,0 +1,20 @@
+Faça um programa que leia as duas notas de um aluno em uma matéria e mostre na tela a sua média na disciplina.
+programa
+{
+   funcao inicio()
+   {
+       real nota1, nota2, soma
+
+
+       escreva("Digite a primeira nota: " , "\n")
+       leia(nota1)
+       escreva("Digite a segunda nota: ", "\n")
+       leia(nota2)
+
+
+       soma = ((nota1 + nota2) / 2)
+
+
+       escreva("A média entre: ", nota1, " e ", nota2, " é igual a: ", soma)
+   }
+}

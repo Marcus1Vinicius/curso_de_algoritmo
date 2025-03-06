@@ -1,0 +1,21 @@
+diferença de gols numa partida de futebol:
+programa {
+ funcao inicio() {
+   inteiro gols_abc, gols_america, diferenca
+   escreva("Digite quantos gol o ABC fez: ")
+   leia(gols_abc)
+   escreva("Digite quantos gols o america fez: ")
+   leia(gols_america)
+   diferenca = gols_abc - gols_america
+   se (diferenca < 0){
+     diferenca = diferenca * -1
+   }
+     se (diferenca >= 6)
+       escreva("DIFERENÇA: ", diferenca, "\nSTATUS: GOLEADA")
+         senao
+           se(diferenca >= 1 e diferenca < 6)
+             escreva("DIFERENÇA: ", diferenca, "\nSTATUS: PARTIDA NORMAL")
+               senao
+                 escreva("DIFERENÇA: ", diferenca, "\nSTATUS: EMPATE")
+ }
+}

@@ -1,0 +1,18 @@
+Crie um programa que leia o nome e o salário de um funcionário, mostrando no final uma mensagem.
+
+
+programa
+{
+   funcao inicio()
+   {
+       cadeia nome
+       real salario
+
+
+       escreva("Digite seu nome: " , "\n")
+       leia(nome)
+       escreva("Digite o seu salário: ", "\n")
+       leia(salario)
+       escreva("O funcionário: ", nome, " tem um salário de: ", salario, " em junho")
+   }
+}

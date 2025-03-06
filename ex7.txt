@@ -1,0 +1,12 @@
+Faça um algoritmo que leia quanto dinheiro uma pessoa tem na carteira (em R$) e mostre quantos dólares ela pode comprar. Considere US$1,00 = R$3,45.
+
+
+programa {
+ funcao inicio() {
+   real valor, converter
+   escreva("Digite quando você tem na carteira: ")
+   leia(valor)
+   converter = (valor / 3.45)
+   escreva("Com R$", valor, " reais você pode comprar $", converter, " dolares")
+ }
+}

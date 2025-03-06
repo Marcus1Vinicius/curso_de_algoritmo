@@ -1,0 +1,12 @@
+Crie um programa que leia o preço de um produto, calcule e mostre o seu PREÇO PROMOCIONAL, com 5% de desconto.
+programa {
+ funcao inicio() {
+   real valor_produto, desconto
+   escreva("Digite o valor do produto: ")
+   leia(valor_produto)
+   desconto = valor_produto - (valor_produto * 0.05)
+   escreva("O produto com 5% de desconto fica no valor de: ", desconto)
+  
+  
+ }
+}
