@@ -1,0 +1,13 @@
+programa {
+  funcao inicio() {
+    inteiro c, n
+    escreva("Digite o número que será fatorado: ")
+    leia(n)
+    c = n
+    escreva("\n", c, " x ", c, " = ", c * c)
+    enquanto(c > 1){
+      c = c - 1
+      escreva("\n", c, " x ", c, " = ", c * c)
+    }
+  }
+}

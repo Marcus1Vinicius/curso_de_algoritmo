@@ -1,0 +1,29 @@
+SUPER CONTADOR: crie um menu com três opções, 1- precione 1 para contar de 1 até 10, 2- precione 2 para contar de 10 até 1, 3- precione 3 para encerrar
+
+solução:
+
+programa {
+  funcao inicio() {
+    inteiro op1 =1, op2 = 2, op3 = 3, resposta, cont1 = 0, cont2 = 11
+        escreva("**MENU**\n [1] de 1 até 10\n [2] de 10 até 1\n [3] ENCERRAR!\n")
+        leia(resposta)
+
+        se(resposta == op1){
+            enquanto(cont1 < 10){
+                cont1 = cont1 + 1
+            escreva(" ...",cont1, " ...")
+            }
+        }
+
+        senao se(resposta == op2){
+            enquanto(cont2 > 1){
+                cont2 = cont2 - 1
+            escreva(" ...",cont2, " ...")
+            }
+        }
+
+        senao{
+            escreva("ENCERROU!")
+        }        
+  }
+}
